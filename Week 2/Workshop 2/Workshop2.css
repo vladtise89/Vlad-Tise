@@ -1,0 +1,27 @@
+body {
+    font-family:'Times New Roman';
+    text-decoration: solid;
+    background-color: rgb(253, 255, 244);
+}
+.description {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    border-left: 1px solid lightgray;
+    padding-left: 2%;
+    text-align: justify;
+    margin: 10%;
+   
+}
+
+.list {
+    font-size: 20px;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    border: 1px none;
+    
+}
+a {
+    text-decoration: none;
+}
