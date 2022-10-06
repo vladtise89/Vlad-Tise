@@ -1,0 +1,5 @@
+function myForm() {
+    return 'Congratulations!';
+}
+
+
