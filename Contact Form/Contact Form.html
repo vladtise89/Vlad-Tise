@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contact Form.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="container">
+      <div>
+        <img src="coffee.jpg" alt="Coffee" style="width: 500px">
+      </div>
+      <div>
+        <div style="text-align:center; width: 500px">
+          <h1>Contact Form</h1>
+          <div id="error_message">Thank you for contacting us, <span id="error_firstname_label"></span>!</div>
+          
+        </div>
+        <div class="row" style="padding-top: 100px">
+     
+          <form id="myForm">
+              
+            <label for="fname"></label>
+            <input type="text" placeholder="First Name" name="fname" id="firstname" ><br>
+
+              <label for="lname"></label>
+              <input type="text" id="lastname" name="lastname" placeholder="Your last name" >
+              <br>
+                <legend>Gender</legend>
+
+                <div>
+                    <input type="radio" id="male" name="drone" value="male" checked>
+                    <label for="male">Male</label>
+              
+                    <input type="radio" id="female" name="drone" value="female" checked>
+                    <label for="male">Female</label>
+                </div>
+                <br>
+
+              <label for="subject"></label>
+              <textarea id="subject" name="subject" placeholder="Write something" style="height:170px"></textarea>
+
+              <input type="submit" id="onsubmit" value="Submit">
+              
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+
+
+</body>
+<script src="contactform.js"></script>
+</html>
