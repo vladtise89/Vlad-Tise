@@ -1,0 +1,36 @@
+.container {
+  background-color: rgb(198, 207, 215);
+  height: 220px;
+  width: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+table {
+  padding: 5px;
+  width: 100%;
+  border-spacing: 10px;
+}
+
+.row-1,
+.row-4 {
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 5px;
+}
+.box1,
+.box2 {
+  background-color: green;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.box3,
+.box4,
+.box5,
+.box6 {
+  background-color: rgb(25, 64, 171);
+  padding: 10px;
+  border-radius: 5px;
+}
