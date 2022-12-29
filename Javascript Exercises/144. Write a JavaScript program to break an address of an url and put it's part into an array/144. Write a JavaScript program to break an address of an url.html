@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        
+        <p>125. Write a JavaScript program to find the longest string from a given array.</p>
+
+        <label>Paste URL here: </label>
+        <input type="text" id="url">
+        
+        <script>
+               
+            document.getElementById('url').addEventListener('input', (e) => {
+                const inputURL = document.getElementById('url').value;
+                const formattedURL = new URL(inputURL);
+
+                const array = [formattedURL.protocol, formattedURL.host, formattedURL.pathname, formattedURL.hash];
+                console.log(array);
+            })
+        </script>
+    </body>
+
+</html>

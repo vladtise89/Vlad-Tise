@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        
+        <h1>27. Write a JavaScript program to check whether a string starts with 'Java' and false otherwise. </h1>
+        <label>Check if a string starts with 'Java':</label>
+        <input type="text" id="no">
+
+        <div id="result"></div>
+
+
+        <script>
+
+         const minRange = 60;
+         const maxRange = 120;  
+            const inputElement = document.getElementById('no')
+            inputElement.addEventListener('input', (e) => {
+              if (inputElement.value >= minRange && inputElement.value <= maxRange)  {
+                document.getElementById('result').innerHTML = `The number is in the given range ${minRange} - ${maxRange}`;
+              } else {
+                document.getElementById('result').innerHTML = `The number is not in the given range ${minRange} - ${maxRange}`;
+              }
+            })
+        </script>
+    </body>
+
+</html>

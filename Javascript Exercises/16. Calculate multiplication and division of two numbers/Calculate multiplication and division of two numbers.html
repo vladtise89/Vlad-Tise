@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculate multiplication and division of two numberss</title>
+    </head>
+    <body>
+        <p>16. Calculate multiplication and division of two numbers. </p>
+        <h2 id="output"></h2>
+
+        <form onsubmit="event.preventDefault()">
+            <label>First Number</label><br>
+            <input type="text" id="first_number"><br>
+            <label>Second Number</label><br>
+            <input type="text" id="second_number">
+            <br><br>
+
+            <button id="multiply">Multiply</button>
+            <button id="divide">Divide</button>
+
+            <h4>The result is: </h4>
+            <h4 id="result"></h4>
+            
+
+        </form>
+
+
+        <script>
+            function multiply() {
+                                
+                var firstNumber = document.getElementById("first_number").value;
+                var secondNumber = document.getElementById("second_number").value;
+                var finalResult = firstNumber * secondNumber;
+                document.getElementById('result').innerHTML = finalResult;
+                
+            }
+            document.getElementById('multiply').addEventListener('click', function(e) {
+                multiply()
+            })
+
+            function divide() {
+                                
+                var firstNumber = document.getElementById("first_number").value;
+                var secondNumber = document.getElementById("second_number").value;
+                var finalResult = firstNumber / secondNumber;
+                document.getElementById('result').innerHTML = finalResult;
+                
+            }
+            document.getElementById('divide').addEventListener('click', function(e) {
+                divide()
+            })
+
+        </script>
+    
+    </body>
+
+
+
+
+</html>
