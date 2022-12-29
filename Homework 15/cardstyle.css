@@ -1,0 +1,77 @@
+body::before {
+  z-index: 999;
+  margin-right: 10px;
+  content: "Extra Small";
+  color: rgb(171, 15, 38);
+  font-size: 2rem;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+@media (min-width: 576px) {
+  body::before {
+    margin-right: 10px;
+    content: "Small";
+    position: fixed;
+    /* margin-right: 10px; */
+    /* content: "Extra Large"; */
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  body::before {
+    margin-right: 10px;
+    content: "Medium";
+    position: fixed;
+    /* margin-right: 10px; */
+    /* content: "Extra Large"; */
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  body::before {
+    margin-right: 10px;
+    content: "Large";
+    position: fixed;
+    /* margin-right: 10px; */
+    /* content: "Extra Large"; */
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body::before {
+    margin-right: 10px;
+    content: "Extra Large";
+    position: fixed;
+    /* margin-right: 10px; */
+    /* content: "Extra Large"; */
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 1400px) {
+  body::before {
+    margin-right: 10px;
+    content: "XX Large";
+    position: fixed;
+    /* margin-right: 10px; */
+    /* content: "Extra Large"; */
+    margin-top: 40px;
+  }
+}
+.main {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.arrange-buttons .text-white {
+  border-radius: none;
+}
+.checked {
+  color: orange;
+  text-emphasis-color: black;
+}

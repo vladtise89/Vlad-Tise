@@ -1,0 +1,171 @@
+.navbar .col {
+  margin: 5px;
+  background-color: rgb(34, 101, 169);
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+}
+
+body::before {
+  z-index: 999;
+  margin-right: 10px;
+  content: "Extra Small";
+  color: rgb(171, 15, 38);
+  font-size: 2rem;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.header {
+  font-family: "Times New Roman", Times, serif;
+}
+.header .col-9 span:first-child {
+  font-size: 30px;
+  border-right: 1px solid black;
+  padding-right: 15px;
+}
+
+.header .col-3 {
+  font-size: 15px;
+}
+.slider {
+  min-height: 400px;
+  background-image: url("https://www.cato.org/sites/cato.org/files/styles/optimized/public/2021-01/GettyImages-1226985345.jpg?itok=f9SULHjG");
+}
+.slider {
+  position: relative;
+  padding-top: 20px;
+}
+.slider .description {
+  width: 400px;
+  height: 180px;
+  background-color: rgb(34, 101, 169);
+  color: white;
+  margin: 30px;
+  padding: 15px;
+}
+.slider .description h2 {
+  border-bottom: 1px dashed white;
+  font-size: 26px;
+}
+
+.action {
+  position: absolute;
+  text-align: center;
+  width: 400px;
+  height: 60px;
+  background-color: rgb(34, 101, 169);
+  right: 30px;
+  bottom: -20px;
+  font-size: 35px;
+  color: white;
+}
+
+.photos {
+  padding-bottom: 20px;
+  border-radius: 0px;
+  border-bottom: 2px dashed lightgrey;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.photos .col .card {
+  background-color: lightgrey;
+  padding: 20px;
+}
+
+.photos .col .card .read-more {
+  text-decoration: none;
+  position: absolute;
+  right: 30px;
+}
+.card-img-top {
+  border: 3px solid white;
+  max-height: 100px;
+}
+.card-title {
+  border-bottom: 2px dashed white;
+  padding-bottom: 10px;
+}
+.list-group {
+  color: rgb(74, 114, 179);
+}
+.three-column {
+  margin-bottom: 40px;
+}
+.middle-title {
+  border-bottom: 2px dashed lightgray;
+  padding-bottom: 5px;
+  background-image: var(--bs-gradient);
+}
+.middle-column {
+  margin-left: 10px;
+  font-size: 30px;
+}
+.categories {
+  border-bottom: 2px dashed lightgrey;
+}
+
+.description {
+  width: 100%;
+}
+
+/* This box class is purely used for explaining how the bootstrap grid system works. */
+
+@media (min-width: 576px) {
+  body::before {
+    margin-right: 10px;
+    content: "Small";
+    position: fixed;
+    /* margin-right: 10px; */
+    /* content: "Extra Large"; */
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  body::before {
+    margin-right: 10px;
+    content: "Medium";
+    position: fixed;
+    /* margin-right: 10px; */
+    /* content: "Extra Large"; */
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  body::before {
+    margin-right: 10px;
+    content: "Large";
+    position: fixed;
+    /* margin-right: 10px; */
+    /* content: "Extra Large"; */
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body::before {
+    margin-right: 10px;
+    content: "Extra Large";
+    position: fixed;
+    /* margin-right: 10px; */
+    /* content: "Extra Large"; */
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 1400px) {
+  body::before {
+    margin-right: 10px;
+    content: "XX Large";
+    position: fixed;
+    /* margin-right: 10px; */
+    /* content: "Extra Large"; */
+    margin-top: 40px;
+  }
+}
