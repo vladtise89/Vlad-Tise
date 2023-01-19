@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(199, 67, 199);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.arrow {
+  height: 150px;
+  cursor: pointer;
+  background-color: rgb(171, 204, 9);
+  border-radius: 40px;
+}
+.right {
+  rotate: 180deg;
+}
+.slider {
+  display: flex;
+  transition: all 1s ease;
+}
+.frame {
+  width: 800px;
+  height: 500px;
+  overflow: hidden;
+}
+.image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid yellow;
+}
